@@ -81,7 +81,7 @@ function currentCondition(city) {
 function futureCondition(lat, lon) {
 
     // presents five day forecast
-    var futureURL = `http://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=current,minutely,hourly,alerts&appid=${apiKey}`;
+    var futureURL = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=current,minutely,hourly,alerts&appid=${apiKey}`;
 
     $.ajax({
         url: futureURL,
