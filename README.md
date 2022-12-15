@@ -14,6 +14,6 @@ Thanks to Instructor Mahyar Mottaghi Zadeh for providing relevent training and r
 https://veerak21.github.io/weather-dashboard/
 
 
-Welcome page screenshot.
+
 
 ![screenshot-of-applicaton](./assets/img1.png)
